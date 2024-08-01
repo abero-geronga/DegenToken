@@ -23,8 +23,9 @@ The DegenToken smart contract, developed in Solidity and deployed on the Avalanc
 4. **Transferring**
    - Players have the ability to transfer their DegenTokens to others, fostering a vibrant in-game economy where tokens can be exchanged for goods, services, or other tokens.
    - The sender must possess an adequate balance of DegenTokens to be able to transfer.
-
-
+  
+5. **Checking Balance**
+   - Players can see their DegenToken balance at any moment. This transparency guarantees that participants are always aware of the tokens they have available, allowing them to make smart spending and saving decisions.
 
 ## Getting Started
 
