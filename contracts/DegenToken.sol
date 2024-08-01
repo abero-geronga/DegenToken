@@ -31,9 +31,7 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
     // Mapping to store redeemed items by users
     mapping(address => Item[]) private redeemedItems;
     
-    constructor(address initialOwner)
-        ERC20("Degen", "DGN")
-        Ownable(initialOwner)
+    constructor() ERC20("Degen", "DGN")
     {
         // Initialize the items
         items.push(Item(1, "Ceres Fauna Merch", 150)); // Item 1: Ceres Fauna Merch costs 200 DGN
